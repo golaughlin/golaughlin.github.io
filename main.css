@@ -2,14 +2,14 @@
 * CSS styling for the Gage O'Laughlin GitHub page.
 */
 
-/* Google Fonts: Poppins, Source Sans 3 */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800;900&family=Source+Sans+3:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* Google Fonts: Poppins, Open Sans */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:wght@600;700;800;900&display=swap');
 
 /* Fonts, Colors, and other styling */
 body {
     max-width: 800px;
     margin: auto;
-    font-family: 'Source Sans 3', system, sans-serif;
+    font-family: 'Open Sans', system, sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 16px;
