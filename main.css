@@ -9,7 +9,7 @@
 body {
     max-width: 800px;
     margin: auto;
-    font-family: 'Open Sans', system, sans-serif;
+    font-family: 'Inter', system, system-ui, sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 16px;
@@ -20,7 +20,7 @@ ul li, p {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Poppins', system, sans-serif;
+    font-family: 'Inter', system, system-ui, sans-serif;
     font-weight: 700;
     font-style: normal;
 }
@@ -42,7 +42,7 @@ h5, h6 {
 
 .subtitle {
     font-size: 2em;
-    font-weight: 300;
+    font-weight: 200;
     font-style: italic;
 }
 
@@ -61,4 +61,12 @@ h5, h6 {
 
 #more-info ul li {
     line-height: 1.5;
+}
+
+/* Mobile padding fix */
+@media screen and (max-width: 810px) {
+    body {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
