@@ -63,6 +63,25 @@ h5, h6 {
     line-height: 1.5;
 }
 
+/* New portfolio website message styling */
+#new-website-notice {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1rem;
+    margin: 1rem auto;
+    background-color: #ffdf20;
+    color: black;
+    gap: 1rem;
+}
+.new-website-notice__message {
+    font-weight: 500;
+    font-size: 1rem;
+}
+.new-website-notice__message a {
+    color: #155dfc;
+}
+
 /* Mobile padding fix */
 @media screen and (max-width: 810px) {
     body {
